@@ -38,6 +38,7 @@ const [isCelsius, setIsCelsius] = useState(true)
                 <h2 className="weather__footer-temp">{isCelsius ? `${temp?.celsius} °C` :`${temp?.farenheit} °F`}</h2>
                 <button className="weather__footer-btn" onClick={handleChangeTemp}> Change to {isCelsius ? '°F' : '°C'} </button>
             </footer>
+            <link rel="stylesheet" href="https://github.com/Jalmar01/segundo_entregable_react" />
         </article>
     )
 }
